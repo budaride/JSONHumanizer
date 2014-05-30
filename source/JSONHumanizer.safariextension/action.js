@@ -154,8 +154,6 @@ $(document).ready(function () {
         beautifyJson(json)
         $('pre').attr('class', 'no-display')
         $("#beautified").html(pre);
-        $('body').append('<div class="view-white">View White</div>')
-        $('body').append('<div class="view-black no-display">View Black</div>')
         $('body').append('<div class="source">View Source</div>')
         $('body').append('<div class="view-beautified no-display">View Beautified</div>')
         $('body').attr('class','jsbBody')

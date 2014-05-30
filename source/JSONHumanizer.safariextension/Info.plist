@@ -7,9 +7,9 @@
 	<key>Builder Version</key>
 	<string>9537.75.14</string>
 	<key>CFBundleDisplayName</key>
-	<string>JsonBeautifier</string>
+	<string>JSONHumanizer</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.jsonbeautifier</string>
+	<string>com.gabrielemunarin.jsonHumanizer</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -38,7 +38,7 @@
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>Beautifier for Json Objects</string>
+	<string>Extension built to prevent headaches from dealing with gigantic JSON outputs.</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -51,5 +51,7 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Website</key>
+	<string>http://github.com/budaride</string>
 </dict>
 </plist>
