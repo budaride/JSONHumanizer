@@ -1,3 +1,5 @@
+//credits : https://github.com/caldwell/
+
 $(document).ready(function () {
     if($('pre').length){
       string=$('pre').text().trim()
