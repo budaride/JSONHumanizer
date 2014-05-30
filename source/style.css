@@ -1,0 +1,61 @@
+/* GENERIC CSS */
+.jsbBody{
+    background: #333333;
+
+}
+
+.view-beautified, .source, .view-white, .view-black {
+    background-color: #f8f8f8;
+    -webkit-box-shadow: -1px 1px 0px 0px #AAA;
+    color: #000;
+    font-family: 'helvetica', 'sans serif', 'times new roman';
+    font-size: 11px;
+    max-height: 90%;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    opacity: 1;
+    overflow: fixed;
+    z-index: 100;
+}
+.jsbBody a{color: #cc9933;}
+.jsbBody a.expandableSection{text-decoration: none; color:red; font-size: 14px;}
+.jsbBody .no-display { display: none; }
+
+/* BEAUTY MODE */
+.jsbBody .key { color: #009900; }
+.jsbBody .string { color:#cccccc; }
+.jsbBody .number, .boolean { color: #cc3333; }
+
+.jsbBody .beautified, pre{
+    color:#cccccc;
+    font-family: Monaco,"Courier New",courier;
+    font-size: 12px;
+    line-height: 1.4em;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.jsbBody .source, .view-beautified , .view-white, .view-black {
+    bottom: 10px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    -webkit-box-shadow: -1px -1px 0px 0px #AAA;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.view-white, .view-black {
+    bottom: 50px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    -webkit-box-shadow: -1px -1px 0px 0px #AAA;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
