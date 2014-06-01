@@ -4,13 +4,25 @@
 <array>
 	<dict>
 		<key>DefaultValue</key>
-		<true/>
+		<string>white</string>
 		<key>Key</key>
-		<string>black</string>
+		<string>theme</string>
+		<key>Secure</key>
+		<false/>
 		<key>Title</key>
-		<string>Black</string>
+		<string>Theme</string>
+		<key>Titles</key>
+		<array>
+			<string>Black</string>
+			<string>White</string>
+		</array>
 		<key>Type</key>
-		<string>CheckBox</string>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<string>black</string>
+			<string>white</string>
+		</array>
 	</dict>
 </array>
 </plist>

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script type="text/javascript">
+    safari.application.addEventListener( "message", function( e ) {
+      if( e.name === "getSettings" ) {
+        e.target.page.dispatchMessage( "setSettings", {
+          theme: safari.extension.settings.getItem( "theme" )
+        } );
+      }
+    }, false );
+  </script>
+</head>
+<body></body>
+</html>
