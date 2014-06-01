@@ -8,7 +8,7 @@ $(document).ready(function () {
 
         var json, string = $('pre').text().trim();
 
-        if (string.indexOf('{') == 0) {
+        if (string.indexOf('{') == 0 || string.indexOf('[') == 0 ) {
             json = JSON.parse(string);
         } else {
             json = null;
