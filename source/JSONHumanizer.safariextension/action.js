@@ -2,11 +2,11 @@
 
 $(document).ready(function () {
     (function () {
-        if (!$('pre').length) {
-            return;
+        if (!$('body').children('pre').length) {
+            return ;
         }
 
-        var json, string = $('pre').text().trim();
+        var json, string = $('body').children('pre').text().trim();
 
         if (string.indexOf('{') == 0 || string.indexOf('[') == 0 ) {
             json = JSON.parse(string);
@@ -15,7 +15,7 @@ $(document).ready(function () {
         }
 
         if (!json) {
-            return;
+            return ;
         }
 
 
@@ -25,6 +25,7 @@ $(document).ready(function () {
         var init = function () {
 
             var pre = ''
+            $('head').append('<link rel="stylesheet" href="'+safari.extension.baseURI+'style.css">')
             $('body').append('<div class="beautified" id="beautified"></div>')
             exports = {};
             exports.beautifyJson = beautifyJson = (function () {
